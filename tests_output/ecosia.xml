@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="ecosia"
+    errors="1" failures="0" hostname="" id="" package="ecosia" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;Unable to create new service: GeckoDriverService
+  Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:25:53&#39;
+  System info: host: &#39;tobils-MacBook-Pro.local&#39;, ip: &#39;127.0.0.1&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.6&#39;, java.version: &#39;14.0.1&#39;
+  Driver info: driver.version: unknown&#34;
+   Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:25:53&#39;
+   System info: host: &#39;tobils-MacBook-Pro.local&#39;, ip: &#39;127.0.0.1&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.6&#39;, java.version: &#39;14.0.1&#39;
+   Driver info: driver.version: unknown&#34;
+       at endReadableNT (_stream_readable.js:1220:12)
+       at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    </system-err>
+  
+
+    
+    <error message="An error occurred while retrieving a new session: &#34;Unable to create new service: GeckoDriverService
+Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:25:53&#39;
+System info: host: &#39;tobils-MacBook-Pro.local&#39;, ip: &#39;127.0.0.1&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.6&#39;, java.version: &#39;14.0.1&#39;
+Driver info: driver.version: unknown&#34;"><![CDATA[
+      Error: An error occurred while retrieving a new session: &#34;Unable to create new service: GeckoDriverService
+Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:25:53&#39;
+System info: host: &#39;tobils-MacBook-Pro.local&#39;, ip: &#39;127.0.0.1&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.6&#39;, java.version: &#39;14.0.1&#39;
+Driver info: driver.version: unknown&#34;
+    at SeleniumProtocol.handleSessionCreateError (/Users/tobil/Documents/development/learn-selenium/node_modules/nightwatch/lib/transport/transport.js:103:15)
+    at HttpRequest.&lt;anonymous&gt; (/Users/tobil/Documents/development/learn-selenium/node_modules/nightwatch/lib/transport/transport.js:159:32)
+    at HttpRequest.emit (events.js:315:20)
+    at HttpResponse.&lt;anonymous&gt; (/Users/tobil/Documents/development/learn-selenium/node_modules/nightwatch/lib/http/request.js:142:19)
+    at HttpResponse.emit (events.js:315:20)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/tobil/Documents/development/learn-selenium/node_modules/nightwatch/lib/http/response.js:60:14)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Demo test ecosia.org" classname="ecosia">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

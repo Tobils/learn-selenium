@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="main"
+    errors="1" failures="0" hostname="" id="" package="main" skipped="0"
+    tests="1" time="17.88" timestamp="">
+  
+    <testcase name="Searching nightwatch in youtube" classname="main" time="17.88" assertions="0">
+    <error message="An error occurred while running .setValue() command on &lt;#search&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .setValue() command on &lt;#search&gt;: 
+    at SetValue.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:399:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .setValue() command on &lt;#search&gt;: 
+   {&#34;state&#34;:&#34;success&#34;,&#34;sessionId&#34;:null,&#34;class&#34;:&#34;org.openqa.selenium.remote.Response&#34;,&#34;value&#34;:[],&#34;status&#34;:0}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

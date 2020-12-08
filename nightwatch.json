@@ -1,0 +1,43 @@
+{ 
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "",
+  "page_objects_path" : "",
+  "custom_assertions_path" : "",
+  "globals_path" : "",
+  "live_output" : false,
+  "parallel_process_delay" : 10,
+  "disable_colors": false,
+  "test_workers" : false,
+
+  "webdriver": {
+    "start_process" : true,
+    "server_path": "node_modules/geckodriver",
+    "cli_args": [
+      "--log", "debug"
+    ],
+    "port": 4444
+  },
+
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities": {
+        "browserName" : "firefox",
+        "javascriptEnabled": true,
+        "acceptInsecureCerts": true
+      }
+    }
+  },
+
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "lib/drivers/selenium-server-standalone-3.141.59.jar",
+    "log_path" : "",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.gecko.driver" : "/usr/local/bin/geckodriver"
+    }
+  }
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "learn-selenium",
+  "version": "1.0.0",
+  "description": "learn automation testing",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobils/learn-selenium.git"
+  },
+  "author": "dev.suhada@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tobils/learn-selenium/issues"
+  },
+  "homepage": "https://github.com/Tobils/learn-selenium#readme",
+  "dependencies": {
+    "nightwatch": "^1.5.1"
+  },
+  "devDependencies": {
+    "geckodriver": "^1.21.0"
+  }
+}
